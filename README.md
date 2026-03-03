@@ -114,7 +114,8 @@ Nasabah gagal bayar cenderung memiliki pendapatan lebih rendah dibandingkan nasa
 Alasan:
 - ROC-AUC tertinggi
 - Kemampuan terbaik mendeteksi nasabah gagal bayar
-- Random Forest tidak dipilih karena gagal mendeteksi nasabah gagal bayar (recall = 0)
+- Random Forest tidak dipilih karena gagal mendeteksi nasabah gagal bayar (recall = 0), walaupun memiliki akurasi yang tinggi
+- Logistic Regression memiliki performa stabil, tetapi deteksi default belum optimal.
 
 ---
 
